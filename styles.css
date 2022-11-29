@@ -430,3 +430,7 @@ hr {
 .notifications {
 	cursor: pointer;
 }
+
+.icons:hover {
+	cursor: pointer;
+}
