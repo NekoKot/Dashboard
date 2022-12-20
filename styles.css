@@ -50,6 +50,9 @@ table {
 	border-spacing: 0;
 }
 
+a {
+	text-decoration: none;
+}
 
 :root {
   --first-color: #379683;
@@ -117,6 +120,10 @@ table {
 	font-weight: 600;
 	font-family: 'Roboto', sans-serif;
 	color: var(--sixth-color);
+}
+
+.title > a {
+	color: var(--fifth-color);
 }
 
 .search {
