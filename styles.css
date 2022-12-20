@@ -143,6 +143,10 @@ a {
 	font-size: 20px;
 }
 
+.search > img:hover, img:focus {
+	transform: scale(1.5) translate(-10%);
+}
+
 .info {
 	display: flex;
 	flex-direction: row;
@@ -291,6 +295,10 @@ z-index: 1;
 	padding-left: 30px;
 }
 
+.icons > img:hover, img:focus {
+	transform: scale(1.5) translate(-10%);
+}
+
 .blocks > h3 {
 	font-size: 25px;
 	font-weight: 500;
@@ -436,9 +444,11 @@ hr {
 	color: var(--fifth-color);
 }
 
-.notifications {
+.notifications:hover, .notifications:focus {
 	cursor: pointer;
+	transform: scale(1.5) translate(-10%);
 }
+
 
 .icons:hover {
 	cursor: pointer;
